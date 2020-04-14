@@ -38,14 +38,17 @@ button {
   font-size: 1.6rem;
   cursor: pointer;
   text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
+  transition: background 200ms ease-in-out, transform 200ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
 button:hover,
 button:focus {
-  background: #a2272d;
+  background:yellow;
+  color: black;
+  border: 2px solid;
+  font-weight: bold;
 }
 
 button:focus {
@@ -54,5 +57,5 @@ button:focus {
 }
 
 button:active {
-  transform: scale(0.99);
+  transform: scale(1.25);
 }
